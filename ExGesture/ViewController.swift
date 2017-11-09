@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var imageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +21,22 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func pinchMethod(_ sender: UIPinchGestureRecognizer) {
+        sender.view?.transform = CGAffineTransform(scaleX:sender.scale,y:sender.scale)
+    }
+    
+    
+    @IBAction func rotateMethod(_ sender: UIRotationGestureRecognizer) {
+        
+        self.imageView.transform = CGAffineTransform.identity.rotated(by: sender.rotation)
+    }
+    
+    
+    @IBAction func panMethod(_ sender: UIPanGestureRecognizer) {
+        let translation = sender.translation(in: self.imageView)
+        sender.view?.center = CGPoint(x:(sender.view?.center.x)!+translation.x,y:(sender.view?.center.y)!+translation.y)
+        sender.setTranslation(CGPoint(x:0,y:0), in: self.imageView)
+    }
+    
 }
 

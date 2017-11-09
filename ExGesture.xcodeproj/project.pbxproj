@@ -12,6 +12,7 @@
 		0A3179F81FB403C5009D2C3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A3179F61FB403C5009D2C3E /* Main.storyboard */; };
 		0A3179FA1FB403C6009D2C3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A3179F91FB403C6009D2C3E /* Assets.xcassets */; };
 		0A3179FD1FB403C6009D2C3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A3179FB1FB403C6009D2C3E /* LaunchScreen.storyboard */; };
+		0A317A051FB403EC009D2C3E /* Overwatch-Patch-Notes-827511.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A317A041FB403EC009D2C3E /* Overwatch-Patch-Notes-827511.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0A3179F91FB403C6009D2C3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A3179FC1FB403C6009D2C3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A3179FE1FB403C6009D2C3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A317A041FB403EC009D2C3E /* Overwatch-Patch-Notes-827511.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Overwatch-Patch-Notes-827511.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		0A3179F11FB403C5009D2C3E /* ExGesture */ = {
 			isa = PBXGroup;
 			children = (
+				0A317A041FB403EC009D2C3E /* Overwatch-Patch-Notes-827511.jpg */,
 				0A3179F21FB403C5009D2C3E /* AppDelegate.swift */,
 				0A3179F41FB403C5009D2C3E /* ViewController.swift */,
 				0A3179F61FB403C5009D2C3E /* Main.storyboard */,
@@ -123,6 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A317A051FB403EC009D2C3E /* Overwatch-Patch-Notes-827511.jpg in Resources */,
 				0A3179FD1FB403C6009D2C3E /* LaunchScreen.storyboard in Resources */,
 				0A3179FA1FB403C6009D2C3E /* Assets.xcassets in Resources */,
 				0A3179F81FB403C5009D2C3E /* Main.storyboard in Resources */,
